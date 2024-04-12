@@ -13,7 +13,7 @@ struct SwiftData_MediaApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .modelContainer(for:[User.self,Post.self,Comentary.self])
+                .modelContainer(for: [User.self, Post.self, Comentary.self])
         }
     }
 }

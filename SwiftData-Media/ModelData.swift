@@ -8,9 +8,12 @@
 import Foundation
 import SwiftData
 
-// ユーザーモデル
+
+//Lets create the data model for each entity!!
+
+//users model
 @Model
-final class User{
+final class User {
     var avatar: Data?
     var name: String
     var date: Date
@@ -24,27 +27,30 @@ final class User{
     }
 }
 
-// 投稿モデル
+//Posts model
 @Model
 class Post {
-    var imagePost: Data?
+    var imgPost: Data?
     var caption: String
     var descriptions: String
     var date: Date
     var isLiked: Bool
     
     @Relationship var comentary: [Comentary]
-    init(imagePost: Data? = nil, caption: String, descriptions: String, date: Date, isLiked: Bool) {
-        self.imagePost = imagePost
+    
+    init(imgPost: Data? = nil, caption: String, descriptions: String, date: Date, isLiked: Bool) {
+        self.imgPost = imgPost
         self.caption = caption
         self.descriptions = descriptions
         self.date = date
         self.isLiked = isLiked
         self.comentary = []
+        
     }
 }
 
-// コメントモデル
+
+//Comentaries model
 @Model
 class Comentary {
     var comentary: String
@@ -59,3 +65,8 @@ class Comentary {
         self.post = []
     }
 }
+
+//MARK: Now lets relate each one, to sharing data one another!!!
+
+
+//MARK: We are done with the models

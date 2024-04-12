@@ -12,6 +12,8 @@
 		471E47B82BC78DEC008B0AE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 471E47B72BC78DEC008B0AE7 /* Assets.xcassets */; };
 		471E47BB2BC78DEC008B0AE7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 471E47BA2BC78DEC008B0AE7 /* Preview Assets.xcassets */; };
 		471E47C22BC78E0B008B0AE7 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471E47C12BC78E0B008B0AE7 /* ModelData.swift */; };
+		471E47C42BC8D9A4008B0AE7 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471E47C32BC8D9A4008B0AE7 /* PostView.swift */; };
+		471E47C62BC97121008B0AE7 /* ComentaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471E47C52BC97121008B0AE7 /* ComentaryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		471E47B72BC78DEC008B0AE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		471E47BA2BC78DEC008B0AE7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		471E47C12BC78E0B008B0AE7 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		471E47C32BC8D9A4008B0AE7 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		471E47C52BC97121008B0AE7 /* ComentaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComentaryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			children = (
 				471E47B32BC78DEA008B0AE7 /* SwiftData_MediaApp.swift */,
 				471E47B52BC78DEA008B0AE7 /* ContentView.swift */,
+				471E47C32BC8D9A4008B0AE7 /* PostView.swift */,
 				471E47C12BC78E0B008B0AE7 /* ModelData.swift */,
+				471E47C52BC97121008B0AE7 /* ComentaryView.swift */,
 				471E47B72BC78DEC008B0AE7 /* Assets.xcassets */,
 				471E47B92BC78DEC008B0AE7 /* Preview Content */,
 			);
@@ -140,8 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				471E47C62BC97121008B0AE7 /* ComentaryView.swift in Sources */,
 				471E47B62BC78DEA008B0AE7 /* ContentView.swift in Sources */,
 				471E47B42BC78DEA008B0AE7 /* SwiftData_MediaApp.swift in Sources */,
+				471E47C42BC8D9A4008B0AE7 /* PostView.swift in Sources */,
 				471E47C22BC78E0B008B0AE7 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
